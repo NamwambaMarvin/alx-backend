@@ -3,7 +3,7 @@
 from base_caching import BaseCaching
 
 
-class BasicCache(BaseCache):
+class BasicCache(BaseCaching):
     """ No limit Caching system inherited from BaseCache """
     def put(self, key, item):
         """ Assign to dict """
